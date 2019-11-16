@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3001 || process.env.PORT
+const port = 3001 || process.env.$PORT
 const fetch = require('node-fetch')
 
 app.get('/', (req, res) => res.send('Hello World!'))
